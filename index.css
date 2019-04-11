@@ -1,0 +1,93 @@
+:root {
+  font: normal 12pt sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background: cornflowerblue;
+  color: white;
+  margin: 0 0 -50px;
+  padding: 1em 0 50px;
+}
+
+.header p {
+  margin: 0 auto 1em;
+  width: 900px;
+  text-align: justify;
+}
+
+.shadow {
+  width: 900px;
+}
+
+.shadow-0 {
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, .01);
+  height: 100px;
+  margin: 0 auto -100px;
+}
+
+.shadow-1 {
+  box-shadow: 0 0 9px 9px rgba(0, 0, 0, .02);
+  height: 110px;
+  margin: 0 auto -110px;
+}
+
+.shadow-2 {
+  box-shadow: 0 0 8px 8px rgba(0, 0, 0, .03);
+  height: 120px;
+  margin: 0 auto -120px;
+}
+
+.shadow-3 {
+  box-shadow: 0 0 7px 7px rgba(0, 0, 0, .04);
+  height: 130px;
+  margin: 0 auto -130px;
+}
+
+.shadow-4 {
+  box-shadow: 0 0 6px 6px rgba(0, 0, 0, .05);
+  height: 140px;
+  margin: 0 auto -140px;
+}
+
+.shadow-5 {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, .06);
+  height: 150px;
+  margin: 0 auto -150px;
+}
+
+.shadow-6 {
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, .07);
+  height: 160px;
+  margin: 0 auto -160px;
+}
+
+.shadow-7 {
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, .08);
+  height: 170px;
+  margin: 0 auto -170px;
+}
+
+.shadow-8 {
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .09);
+  height: 180px;
+  margin: 0 auto -180px;
+}
+
+.shadow-9 {
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1);
+  height: 190px;
+  margin: 0 auto -190px;
+}
+
+.content {
+  background: white;
+  box-sizing: border-box;
+  margin: 0 auto;
+  min-height: 400px;
+  padding: 1em;
+  width: 900px;
+}
