@@ -6,4 +6,4 @@ system where each of the box shadow (effectively-)zero-sized blocks contributes 
 and opacity is lineraly adjusted so that the resulting effect is that the box shadow fades on the sides of the enclosed
 block.
 
-[**DEMO**]()
+[**DEMO**](https://tomashubelbauer.github.io/css-gradual-box-shadow/)
