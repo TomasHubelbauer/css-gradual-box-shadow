@@ -25,56 +25,56 @@ body {
 
 .shadow-0 {
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, .01);
-  height: 100px;
-  margin: 0 auto -100px;
+  height: 10px;
+  margin: 0 auto -10px;
 }
 
 .shadow-1 {
   box-shadow: 0 0 9px 9px rgba(0, 0, 0, .02);
-  height: 110px;
-  margin: 0 auto -110px;
+  height: 30px;
+  margin: 0 auto -30px;
 }
 
 .shadow-2 {
   box-shadow: 0 0 8px 8px rgba(0, 0, 0, .03);
-  height: 120px;
-  margin: 0 auto -120px;
+  height: 50px;
+  margin: 0 auto -50px;
 }
 
 .shadow-3 {
   box-shadow: 0 0 7px 7px rgba(0, 0, 0, .04);
-  height: 130px;
-  margin: 0 auto -130px;
+  height: 70px;
+  margin: 0 auto -70px;
 }
 
 .shadow-4 {
   box-shadow: 0 0 6px 6px rgba(0, 0, 0, .05);
-  height: 140px;
-  margin: 0 auto -140px;
+  height: 90px;
+  margin: 0 auto -90px;
 }
 
 .shadow-5 {
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, .06);
-  height: 150px;
-  margin: 0 auto -150px;
+  height: 110px;
+  margin: 0 auto -110px;
 }
 
 .shadow-6 {
   box-shadow: 0 0 4px 4px rgba(0, 0, 0, .07);
-  height: 160px;
-  margin: 0 auto -160px;
+  height: 130px;
+  margin: 0 auto -130px;
 }
 
 .shadow-7 {
   box-shadow: 0 0 3px 3px rgba(0, 0, 0, .08);
-  height: 170px;
-  margin: 0 auto -170px;
+  height: 150px;
+  margin: 0 auto -150px;
 }
 
 .shadow-8 {
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, .09);
-  height: 180px;
-  margin: 0 auto -180px;
+  height: 170px;
+  margin: 0 auto -170px;
 }
 
 .shadow-9 {
