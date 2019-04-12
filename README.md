@@ -8,7 +8,34 @@ block.
 
 [**DEMO**](https://tomashubelbauer.github.io/css-gradual-box-shadow/)
 
-## To Do
+## Alternatives
 
-- See if using `filter` is better than `box-shadow` (should make no difference for rectangular elements)
-- See if we can stack `::before` on another `::before` so that pseudo-elements could be used instead
+A list of ideas I tried and why I haven't chosen them
+
+### Multiple `::before`
+
+Each `::before` would behave the same way the `.shadow-x` works in this demo. The nice thing about this approach would
+have been that you need only the content HTML element and the shadows would all been pseudo-elements. The problem which
+made it infeasible is that it is simply not possible to stack `::before` like so: `.content::before::before` so this
+solution is infeasible due to technical limitations.
+
+### CSS `clip`
+
+The entire idea here was to clip the box with drop shadow and let if overflow achieving the hat effect.
+However there was no solution for the opacity gradient nor the sharp shadow edge at the cutoff point.
+Also `clip` is deprecated in CSS.
+
+## CSS Mask Mode
+
+Do not remember the problem here.
+
+## Background Linear/Radial Gradient
+
+Haven't tried this, could be interesting because we can fade the gradient strategically and doing a radial gradient
+could even give us nice rounded corners on top of the container as the sides diminish downwards.
+
+
+## CSS `filter`
+
+Maybe it makes sense to use `filter` instead of `box-shadow`?
+Should not make a difference for rectangular elements but would open up an option of rounded corners on the top side.
