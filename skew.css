@@ -1,0 +1,33 @@
+:root {
+  font: normal 10pt sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background: cornflowerblue;
+  color: white;
+  height: 200px;
+}
+
+.shadow {
+  background: white;
+  box-shadow: 0 0 10px 10px rgba(255, 0, 0, .1);
+  height: 200px;
+  margin: -50px auto -200px;
+  transform: perspective(900px) rotateX(-20deg);
+  width: 900px;
+}
+
+.content {
+  background: white;
+  box-sizing: border-box;
+  margin: 0 auto;
+  min-height: 400px;
+  padding: 1em;
+  /* Introduce a new stacking context so that this box overlaps the shadow one */
+  transform: translate(0, 0);
+  width: 900px;
+}
