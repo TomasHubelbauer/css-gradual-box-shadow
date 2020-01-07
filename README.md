@@ -39,3 +39,7 @@ could even give us nice rounded corners on top of the container as the sides dim
 
 Maybe it makes sense to use `filter` instead of `box-shadow`?
 Should not make a difference for rectangular elements but would open up an option of rounded corners on the top side.
+
+## To-Do
+
+### Code up and document the alternatives as well
